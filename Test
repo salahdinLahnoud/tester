@@ -8,8 +8,8 @@ reverse..." ecnetnes siht tset ilw I"
 
 String sentence = "I wil test this sentence";
 String [] sentenceArray = sentence.split(" ");
-for(String s : sentenceArray.length){
-    System.out.print(new StringBuilder(s.reverse()));
+for(String s : sentenceArray){
+System.out.print(new StringBuilder(s).reverse().toString()+" ");
 }
 
 
